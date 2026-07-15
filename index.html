@@ -1,50 +1,143 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="An interactive fresher guide for incoming IIT Bombay MSc Physics students."><meta name="theme-color" content="#111411"><title>IIT Bombay Fresher Guide — Physics</title><link rel="stylesheet" href="./styles.css"></head>
-<body>
-<a class="skip-link" href="#main">Skip to content</a>
-<nav class="site-nav" aria-label="Primary navigation">
-  <div class="shell nav-inner">
-    <a class="brand" href="./index.html"><span class="brand-mark">ψ</span><span>IITB Fresher Guide</span></a>
-    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <div class="nav-links">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A clear, colourful and interactive fresher guide for incoming IIT Bombay MSc Physics students.">
+  <meta name="theme-color" content="#0a0f1d">
+  <title>IIT Bombay Fresher Guide — Physics</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="home physics-dashboard-page">
+  <a class="skip-link" href="#guide-grid">Skip to guide</a>
+
+  <div class="physics-sky" aria-hidden="true">
+    <span class="formula f1">∇ · E = ρ/ε₀</span>
+    <span class="formula f2">ΔxΔp ≥ ħ/2</span>
+    <span class="formula f3">iħ ∂ψ/∂t = Ĥψ</span>
+    <span class="formula f4">E² = p²c² + m²c⁴</span>
+    <svg class="wave-field" viewBox="0 0 1200 220" preserveAspectRatio="none">
+      <path d="M0,110 C100,20 200,200 300,110 S500,20 600,110 S800,200 900,110 S1100,20 1200,110" />
+      <path d="M0,150 C120,70 220,215 350,120 S560,55 700,140 S980,60 1200,145" />
+    </svg>
+  </div>
+
+  <nav class="dashboard-nav" aria-label="Primary navigation">
+    <a class="dashboard-brand" href="./index.html">
+      <span class="brand-orbit" aria-hidden="true"><i></i></span>
+      <span><strong>IITB Physics</strong><small>Fresher Guide</small></span>
+    </a>
+    <div class="dashboard-nav-links">
       <a href="./academics.html">Academics</a>
-      <a href="./campus-life.html">Campus life</a>
+      <a href="./campus-life.html">Campus</a>
       <a href="./seniors.html">Seniors</a>
       <a href="./clubs.html">Clubs</a>
-      <a href="./transport.html">Getting here</a>
-      <a class="nav-urgent" href="./emergency.html">Emergency</a>
     </div>
-  </div>
-</nav>
-<main id="main">
-  <section class="hero"><div class="shell hero-grid">
-    <div class="reveal"><p class="kicker">MSc Physics · IIT Bombay</p><h1 class="display">Your first week, <em>decoded.</em></h1><p class="lede">A visual, student-made field guide to courses, CPI, monsoons, food, clubs, seniors, travel and the contacts that matter when things go wrong.</p><div class="hero-actions"><a class="btn btn-primary" href="#explore">Explore the guide <span>↘</span></a><a class="btn btn-secondary" href="./emergency.html">Save emergency contacts</a></div></div>
-    <div class="hero-collage reveal" aria-label="IIT Bombay campus photographs"><figure class="photo photo-main"><img src="./assets/campus-pano.webp" alt="Panoramic view of IIT Bombay campus" fetchpriority="high"></figure><figure class="photo photo-small"><img src="./assets/lecture-hall.webp" alt="Lecture hall at IIT Bombay"></figure><aside class="photo-note"><strong>Start here.</strong> Six clear paths instead of eight disconnected pages.</aside></div>
-  </div></section>
-  <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>First-sem courses</span><span>SPI calculator</span><span>Monsoon survival</span><span>Late-night food</span><span>Meet seniors</span><span>Campus clubs</span><span>Emergency help</span><span>First-sem courses</span><span>SPI calculator</span><span>Monsoon survival</span><span>Late-night food</span><span>Meet seniors</span><span>Campus clubs</span><span>Emergency help</span></div></div>
+    <a class="emergency-pill" href="./emergency.html"><span>●</span> Emergency</a>
+  </nav>
 
-  <section class="section" id="explore"><div class="shell"><div class="section-head reveal"><div><p class="eyebrow">Choose what you need</p><h2 class="section-title">One guide. Six useful doors.</h2><p class="section-copy">Related information now lives together, so freshers can understand a topic without jumping between pages.</p></div></div>
-  <div class="bento">
-    <a class="bento-card span-7 tall reveal" href="./academics.html"><img src="./assets/lecture-hall.webp" alt="IIT Bombay lecture hall"><span class="card-arrow">↗</span><div class="card-content"><span class="card-number">01</span><h3 class="card-title">Academics</h3><p class="card-copy">First-semester courses, book recommendations, grades, CPI and a working SPI calculator—in one focused workspace.</p><div class="card-tags"><span>Courses</span><span>Grades</span><span>SPI calculator</span></div></div></a>
-    <a class="bento-card span-5 tall reveal" href="./campus-life.html"><img src="./assets/hostel-h13.webp" alt="Hostel 13 at IIT Bombay"><span class="card-arrow">↗</span><div class="card-content"><span class="card-number">02</span><h3 class="card-title">Know your campus</h3><p class="card-copy">Food, monsoon survival, room essentials and the practical things no brochure tells you.</p><div class="card-tags"><span>Food</span><span>Monsoon</span><span>Essentials</span></div></div></a>
-    <a class="bento-card span-5 medium solid-lavender reveal" href="./seniors.html"><div class="senior-mosaic" aria-hidden="true"><img src="https://drive.google.com/thumbnail?id=1Y97FGoVaqTLYI8d-_-VH3pjF8Ly6qwkF&sz=w200" alt=""><img src="https://drive.google.com/thumbnail?id=1Yv_o7B4kFop2kYGC566ys6Na90pJBGit&sz=w200" alt=""><img src="https://drive.google.com/thumbnail?id=15us_fdWoHVSFwFaozi2NuhaqJpPQPeFc&sz=w200" alt=""></div><span class="card-arrow">↗</span><div class="card-content"><span class="card-number">03</span><h3 class="card-title">Meet your seniors</h3><p class="card-copy">Browse real internships, research paths, PoRs and hobbies. Search by person, institute or interest.</p></div></a>
-    <a class="bento-card span-7 medium reveal" href="./clubs.html"><img src="./assets/main-building.webp" alt="IIT Bombay main building"><span class="card-arrow">↗</span><div class="card-content"><span class="card-number">04</span><h3 class="card-title">Clubs & student life</h3><p class="card-copy">Find cultural, technical and sports communities before orientation-week information overload begins.</p></div></a>
-    <a class="bento-card span-8 medium reveal" href="./transport.html"><img src="./assets/main-gate.webp" alt="IIT Bombay Main Gate"><span class="card-arrow">↗</span><div class="card-content"><span class="card-number">05</span><h3 class="card-title">Getting to IIT Bombay</h3><p class="card-copy">Arrival routes from airports, railway stations and Mumbai local lines—especially when you have too much luggage.</p></div></a>
-    <a class="bento-card span-4 medium solid-clay reveal" href="./emergency.html"><span class="card-arrow">↗</span><div class="card-content"><span class="card-number">06</span><h3 class="card-title">Emergency help</h3><p class="card-copy">Security, QRT, hospital, ambulance, fire and urgent campus contacts. Built to be readable under stress.</p><div class="card-tags"><span>Save offline</span><span>Tap to call</span></div></div></a>
-  </div></div></section>
+  <main class="dashboard-main">
+    <header class="dashboard-intro">
+      <div>
+        <p class="dashboard-kicker">MSc Physics · IIT Bombay · Batch ’27</p>
+        <h1>A fresher’s guide to surviving <span>Master’s life.</span></h1>
+      </div>
+      <div class="intro-side">
+        <p>Everything important is visible here. Pick a card and get the answer without searching through institute websites.</p>
+        <div class="live-equation" aria-live="polite">
+          <span>Today’s equation</span>
+          <strong id="formula-ticker">Δstress ∝ 1 / information</strong>
+        </div>
+      </div>
+    </header>
 
-  <section class="section"><div class="shell"><div class="section-head reveal"><div><p class="eyebrow">Better first-week experience</p><h2 class="section-title">Small details that reduce friction.</h2></div></div><div class="quick-grid">
-    <article class="quick-item reveal"><span class="quick-icon">⌕</span><h3>Search, do not scroll forever</h3><p>Senior profiles and food places can be filtered instantly.</p></article>
-    <article class="quick-item reveal"><span class="quick-icon">✓</span><h3>Interactive checklists</h3><p>Mark monsoon and room essentials as you pack.</p></article>
-    <article class="quick-item reveal"><span class="quick-icon">∑</span><h3>Useful calculations</h3><p>Estimate your SPI directly on the Academics page.</p></article>
-    <article class="quick-item reveal"><span class="quick-icon">↗</span><h3>Clear next action</h3><p>Every card tells the student what they can do next.</p></article>
-  </div></div></section>
-</main>
-<footer class="site-footer">
-  <div class="shell footer-main">
-    <div><p class="eyebrow">Made for the incoming batch</p><h2 class="footer-title">Less searching. More settling in.</h2></div>
-    <div class="footer-links"><a href="./academics.html">Academics</a><a href="./campus-life.html">Campus life</a><a href="./seniors.html">Meet seniors</a><a href="./clubs.html">Clubs</a><a href="./transport.html">Getting to campus</a><a href="./emergency.html">Emergency contacts</a></div>
-  </div>
-  <div class="shell credit-band"><span>This website was made by <strong>Ayushi Singh</strong>, Department Coordinator, Batch of ’27.</span><span>Student-made · Verify official information with IIT Bombay.</span></div>
-</footer>
-<script src="./site.js"></script></body></html>
+    <section id="guide-grid" class="dashboard-grid" aria-label="Fresher guide sections">
+      <a class="dashboard-card academic-card card-wide" href="./academics.html" data-tilt>
+        <img src="./assets/lecture-hall.webp" alt="Lecture hall at IIT Bombay">
+        <div class="card-shade"></div>
+        <div class="card-topline"><span class="card-index">01</span><span class="card-symbol">Σ</span></div>
+        <div class="dashboard-card-content">
+          <p class="card-label">Courses · Grades · CPI</p>
+          <h2>Academics</h2>
+          <p>Five first-sem courses, grade mapping, books and a working SPI calculator.</p>
+          <div class="mini-links"><span>Course guide</span><span>CPI explained</span><span>SPI calculator</span></div>
+        </div>
+        <span class="open-card">Open academics ↗</span>
+        <span class="card-equation">SPI = Σ(cᵢgᵢ) / Σcᵢ</span>
+      </a>
+
+      <a class="dashboard-card campus-card card-medium" href="./campus-life.html" data-tilt>
+        <img src="./assets/hostel-h13.webp" alt="Hostel area at IIT Bombay">
+        <div class="card-shade"></div>
+        <div class="card-topline"><span class="card-index">02</span><span class="card-symbol">☂</span></div>
+        <div class="dashboard-card-content">
+          <p class="card-label">Food · Monsoon · Room</p>
+          <h2>Know your campus</h2>
+          <p>Where to eat, what to pack and how to survive the first Mumbai monsoon.</p>
+          <div class="mini-links"><span>Late-night food</span><span>Packing list</span></div>
+        </div>
+        <span class="open-card">Explore campus ↗</span>
+      </a>
+
+      <a class="dashboard-card emergency-card card-narrow" href="./emergency.html" data-tilt>
+        <div class="emergency-rings" aria-hidden="true"></div>
+        <div class="card-topline"><span class="card-index">SOS</span><span class="pulse-dot"></span></div>
+        <div class="dashboard-card-content">
+          <p class="card-label">Tap to call</p>
+          <h2>Emergency help</h2>
+          <p>Security, hospital, ambulance, fire and urgent campus contacts.</p>
+          <strong class="emergency-number">112</strong>
+          <div class="mini-links"><span>Campus QRT</span><span>Hospital</span></div>
+        </div>
+        <span class="open-card">View contacts ↗</span>
+      </a>
+
+      <a class="dashboard-card seniors-card card-third" href="./seniors.html" data-tilt>
+        <div class="portrait-stack physics-peer-stack" aria-hidden="true">
+          <span>ψ</span>
+          <span>hν</span>
+          <span>∇</span>
+        </div>
+        <div class="card-topline"><span class="card-index">03</span><span class="card-symbol">ψ</span></div>
+        <div class="dashboard-card-content">
+          <p class="card-label">Real people · Real paths</p>
+          <h2>Meet your seniors</h2>
+          <p>Search internships, research areas, PoRs and hobbies across the batch.</p>
+        </div>
+        <span class="open-card">Browse profiles ↗</span>
+      </a>
+
+      <a class="dashboard-card clubs-card card-third" href="./clubs.html" data-tilt>
+        <img src="./assets/main-building.webp" alt="IIT Bombay main building">
+        <div class="card-shade"></div>
+        <div class="card-topline"><span class="card-index">04</span><span class="card-symbol">✦</span></div>
+        <div class="dashboard-card-content">
+          <p class="card-label">Culture · Tech · Sports</p>
+          <h2>Clubs & student life</h2>
+          <p>Find the communities you want before orientation-week information overload.</p>
+        </div>
+        <span class="open-card">Find a club ↗</span>
+      </a>
+
+      <a class="dashboard-card transport-card card-third" href="./transport.html" data-tilt>
+        <img src="./assets/main-gate.webp" alt="IIT Bombay main gate">
+        <div class="card-shade"></div>
+        <div class="card-topline"><span class="card-index">05</span><span class="card-symbol">→</span></div>
+        <div class="dashboard-card-content">
+          <p class="card-label">Airport · Railway · Local</p>
+          <h2>Getting to IITB</h2>
+          <p>Simple arrival routes for freshers travelling with luggage and uncertain plans.</p>
+        </div>
+        <span class="open-card">Plan your route ↗</span>
+      </a>
+    </section>
+
+    <section class="dashboard-bottom" aria-label="Website information">
+      <div class="bottom-note"><span>⚛</span><p><strong>Designed for fast access.</strong> Every major topic is one click from this screen.</p></div>
+      <p class="maker-credit">Made by <strong>Ayushi Singh</strong> · Department Coordinator · Batch of ’27</p>
+    </section>
+  </main>
+
+  <script src="./site.js"></script>
+</body>
+</html>
